@@ -1,4 +1,4 @@
-/* *{
+/**{
 	margin:0;
 	padding:0;
 }
@@ -6,10 +6,10 @@ html{
     font-size: 62.5%;
 }
 */
-/*body{
+body{
     font-size: 16px; /* 1rem = 10px */
-   /* font-family: 'Krub', sans-serif;
-}*/
+   font-family: 'Krub', sans-serif;
+}
 
 .colorFondo{
     background-color:#63970b;
@@ -27,32 +27,45 @@ html{
     width: 38px;
 }
 
-.fa-brands.fa-facebook.fa-2xl:hover {
+.fa-brands.fa-facebook.fa-xl:hover {
 	--bs-text-opacity: 1;
-	color:blue!important;
-    
+	color:#4141fd!important;
+    font-size: 2em;
 }
-.fa-brands.fa-github.fa-2xl:hover{
+.fa-brands.fa-github.fa-xl:hover{
     --bs-text-opacity: 1;
 	color:darkslateblue!important;
-    
+    font-size: 2em;
 }
 
-.fa-brands.fa-twitter.fa-2xl:hover{
+.fa-brands.fa-twitter.fa-xl:hover{
     --bs-text-opacity: 1;
 	color:deepskyblue!important;
+    font-size: 2em;
 }
 
-.fa-brands.fa-linkedin.fa-2xl:hover{
+.fa-brands.fa-linkedin.fa-xl:hover{
     --bs-text-opacity: 1;
 	color:darkorange!important;
+    font-size: 2em;
 }
 
-.fa-solid.fa-user-lock.fa-2xl:hover{
+.fa-solid.fa-user-lock.fa-xl:hover{
     --bs-text-opacity: 1;
 	color:#edbc3f!important;
+    font-size: 2em;
 }
 
-.navlink:hover{
-    width: 10rem;
+.circulo{
+    border-radius: 50%;
+    border-style: outset;
+    border-width: 3px;
+    border-color: #63970b; 
+    box-shadow: 10px;
+    size: 30%;
+}
+
+.acercaDe h4{
+    color: midnightblue;
+    font-weight: 700;
 }
