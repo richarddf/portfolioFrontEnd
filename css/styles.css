@@ -19,11 +19,40 @@ html{
 }
 
 .logoAP {
-    /* background-color:#483d8b;*/
     width: 10rem;
 }
 
 .redesSociales{
     /*margin: 14px auto;*/
     width: 38px;
+}
+
+.fa-brands.fa-facebook.fa-2xl:hover {
+	--bs-text-opacity: 1;
+	color:blue!important;
+    
+}
+.fa-brands.fa-github.fa-2xl:hover{
+    --bs-text-opacity: 1;
+	color:darkslateblue!important;
+    
+}
+
+.fa-brands.fa-twitter.fa-2xl:hover{
+    --bs-text-opacity: 1;
+	color:deepskyblue!important;
+}
+
+.fa-brands.fa-linkedin.fa-2xl:hover{
+    --bs-text-opacity: 1;
+	color:darkorange!important;
+}
+
+.fa-solid.fa-user-lock.fa-2xl:hover{
+    --bs-text-opacity: 1;
+	color:#edbc3f!important;
+}
+
+.navlink:hover{
+    width: 10rem;
 }
