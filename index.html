@@ -112,7 +112,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-3 pt-2">
-                    <p>Marzo de 2015 hasta la actualidad</p>
+                    <p>Desde <strong>15-03-2015</strong> hasta <strong>31-12-2022</strong></p>
                 </div>
                 <div class="col-8 pt-2">
                     <h5 class="colorOrg">Centro de Formación Profesional N° 1</h5>
@@ -129,9 +129,10 @@
                     </button>
                 </div>
             </div>
+            <hr>
             <div class="row">
                 <div class="col-3 pt-2">
-                    <p>Diciembre de 2006 hasta la actualidad</p>
+                    <p>Desde <strong>01-12-2006</strong> hasta <strong>31-12-2022</strong></p>
                 </div>
                 <div class="col-8 pt-2">
                     <h5 class="colorOrg">Junta de Clasificación Técnica, Agrotécnica y Ed. No Formal</h5>
@@ -148,9 +149,10 @@
                     </button>
                 </div>
             </div>
+            <hr>
             <div class="row">
                 <div class="col-3 pt-2">
-                    <p>Febrero de 1998 hasta Septiembre de 2001</p>
+                    <p>Desde <strong>01-02-1998</strong> hasta <strong>30-09-2001</strong></p>
                 </div>
                 <div class="col-8 pt-2">
                     <h5 class="colorOrg">Estudio Contable Auad</h5>
@@ -167,6 +169,7 @@
                     </button>
                 </div>
             </div>
+            <hr>
         </div>
     </section>
 
@@ -179,7 +182,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-3 pt-2">
-                    <p>2010 hasta 2014</p>
+                    <p>Desde <strong>01-03-2010</strong> hasta <strong>31-12-2014</strong></p>
                 </div>
                 <div class="col-8 pt-2">
                     <h5 class="colorOrg">Universidad Nacional de Catamarca</h5>
@@ -196,9 +199,10 @@
                     </button>
                 </div>
             </div>
+            <hr>
             <div class="row">
                 <div class="col-3 pt-2">
-                    <p>1992 hasta 2002</p>
+                    <p>Desde <strong>01-02-1992</strong> hasta <strong>10-05-2002</strong></p>
                 </div>
                 <div class="col-8 pt-2">
                     <h5 class="colorOrg">Universidad Tecnológica Nacional - Facultad Regional Tucumán</h5>
@@ -215,9 +219,10 @@
                     </button>
                 </div>
             </div>
+            <hr>
             <div class="row">
                 <div class="col-3 pt-2">
-                    <p>1987 hasta 1991</p>
+                    <p>Desde <strong>01-03-1987</strong> hasta <strong>30-11-1991</strong></p>
                 </div>
                 <div class="col-8 pt-2">
                     <h5 class="colorOrg">Instituto San Marcos</h5>
@@ -234,6 +239,7 @@
                     </button>
                 </div>
             </div>
+            <hr>
         </div>
     </section>
 
@@ -386,17 +392,23 @@
         <div class="container-fluid colorFondo2">
             <h4 class="pt-2 pb-2">Proyectos</h4>
         </div>
-        <div class="containerMio">
+        <!-- <div class="containerMio">
             <div class="linea">
                 <div class="figura">
                     <p class="tituloFigura">Proyecto Bienes Raices</p>
                     <img src="img/BienesRaices.jpg" alt="Bienes Raices"/>
                 </div>
             </div>
+        </div> -->
+        <div class="card" style="width: 30rem;">
+            <img src="img/BienesRaices.jpg" class="card-img-top" alt="Bienes Raices">
+            <div class="card-body">
+                <p class="card-text">Proyecto para una Inmobiliaria - Bienes Raices</p>
+            </div>
         </div>
     </section>
 
-    <footer class="fixed-bottom piePagina colorFondo d-md-flex">
+    <footer class="piePagina colorFondo d-md-flex">
         <div class="container-fluid text-white">
             <p>Todos los derechos reservados. Richard Díaz Flores</p>
         </div>
@@ -483,13 +495,17 @@
                             <label for="inputAddress" class="form-label">Dirección</label>
                             <input type="text" class="form-control" id="inputAddress" placeholder="Calle, Avda ..." required>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-10">
                             <label for="inputPosicion" class="form-label">Posición</label>
                             <input type="text" class="form-control" id="inputPosicion" placeholder="Encargado, administrativo" required>
                         </div>
-                        <div class="col-12">
-                            <label for="inputPeriodo" class="form-label">Periodo</label>
-                            <input type="text" class="form-control" id="inputPeriodo" placeholder="Periodo expresado literalmente" required>
+                        <div class="col-4">
+                            <label for="inputPeriodo" class="form-label">Fecha Inicio</label>
+                            <input type="date" class="form-control" id="inputFecInicio" placeholder="dd/mm/aaaa" required>
+                        </div>
+                        <div class="col-4">
+                            <label for="inputPeriodo" class="form-label">Fecha Final</label>
+                            <input type="date" class="form-control" id="inputFecFinal" placeholder="dd/mm/aaaa" required>
                         </div>
                         <div class="col-md-12 d-grid gap-2 d-md-flex justify-content-md-end">
                             <button type="submit" class="btn btn-md rounded-3 btn-outline-success">Grabar</button>
@@ -523,9 +539,13 @@
                             <label for="inputPosicion" class="form-label">Título</label>
                             <input type="text" class="form-control" id="inputPosicion" placeholder="Ingeniero, Contador, Profesor" required>
                         </div>
-                        <div class="col-12">
-                            <label for="inputPeriodo" class="form-label">Periodo</label>
-                            <input type="text" class="form-control" id="inputPeriodo" placeholder="Periodo expresado literalmente" required>
+                        <div class="col-4">
+                            <label for="inputPeriodo" class="form-label">Fecha Inicio</label>
+                            <input type="date" class="form-control" id="inputFecInicio" placeholder="dd/mm/aaaa" required>
+                        </div>
+                        <div class="col-4">
+                            <label for="inputPeriodo" class="form-label">Fecha Final</label>
+                            <input type="date" class="form-control" id="inputFecFinal" placeholder="dd/mm/aaaa" required>
                         </div>
                         <div class="col-md-12 d-grid gap-2 d-md-flex justify-content-md-end">
                             <button type="submit" class="btn btn-md rounded-3 btn-outline-success">Grabar</button>
